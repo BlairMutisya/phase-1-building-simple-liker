@@ -4,6 +4,18 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+document.addEventListener("DOMContentLoaded", () => {
+  // Get references to heart elements
+  const hearts = document.querySelectorAll("like-glyph");
+
+  // Get reference to error modal
+  const errorModal = document.querySelector("#modal");
+
+  // Add .hidden class to error modal initially
+  errorModal.classList.add("hidden");
+
+})
+
 
 
 
